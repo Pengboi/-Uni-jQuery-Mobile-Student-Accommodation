@@ -1,0 +1,203 @@
+body {
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+/* The hero image */
+.hero-background {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url("homebg.png");
+  
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    margin: 0%;
+    
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* Place text in the middle of the image */
+.hero-foreground {
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+.hero-heading {
+    margin-top: 10%;
+    text-align: center;
+    color: #FFBE76;
+    text-shadow: 1px 1px 3px black;
+}
+.hero-arrow {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFBE76;
+}
+.hero-button {
+    bottom: 10px;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.rating-image{
+    width: 50%;
+    height: 50%;
+}
+.rating-div {
+    text-align: center;
+	-webkit-box-shadow: 0 8px 10px -10px black;
+	   -moz-box-shadow: 0 8px 10px -10px black;
+	        box-shadow: 0 8px 10px -10px black;
+}
+
+.about-us-title{
+    z-index: 1000;
+    height:30px;
+    width: 200px;
+    margin: 0 auto;
+    z-index: 100;
+    text-align: center;
+    border-radius: 10px;
+    background: #A29BFE;
+}
+.about-us-box{
+    z-index: 10;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: #3D3D3D;
+    width: 90%;
+    height: 90%; 
+}
+.about-us-image{
+    width: 100%;
+}
+.about-us-text{
+    margin: 10px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+.inline-div{
+    vertical-align: text-top;
+    text-align: center;
+    display: inline-block;
+}
+.property-content{
+    vertical-align: text-top;
+    text-align: center;
+    display: inline-block;
+    z-index: 10;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    height: 90%; 
+}
+.accommodation-image{
+    vertical-align: text-top;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 80%;
+}
+.accommodation-address{
+    font-size: 110%;
+}
+.accommodation-price{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.selected-property-box{
+    z-index: 10;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: #3D3D3D;
+    width: 90%;
+    height: 90%; 
+}
+.selected-property-headingbg{
+    z-index: 10;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #F0932B;
+    width: 70%
+}
+.selected-property-text{
+    text-align: left; 
+    color: white; 
+    font-size: 15px; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.center
+{
+    text-align: center;
+}
+.logo
+{
+    height: 60px;
+}
+.left{
+    flex: 1;
+    width: 50%;
+}
+section {
+    overflow: auto;
+    white-space:nowrap;
+}
+.popupHeader{
+    font-size: 1px;
+}
+.slideshow-page {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    transform: translateX(5%);
+    top: 50%;
+}
+.slideshow-image {
+    max-width:100%;
+    max-height:100%;
+}
+.leftside
+{
+    float: left;
+}
+.rightside
+{
+    float: right;
+}
+.setRight
+{
+    text-align: right;
+}

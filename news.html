@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="ui-mobile">
+<head>
+	<title>Homie</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="themes/homie.min.css" />
+	<script src="src/theme.js" ></script>
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" >
+	<meta charset="utf-8">
+</head>
+<body class="ui-mobile-viewport ui-overlay-a">
+	<div data-role="page" id="home" tabindex="0">
+		<div data-role="header" role="banner" 
+			class="ui-header ui-bar-inherit">
+			<div data-position="right" data-role="panel" id="news-navpanel" data-display="overlay" data-position-fixed="true" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-inherit ui-panel-fixed ui-panel-animate ui-panel-closed">
+				<div class="ui-panel-inner">
+					<div id="navcontainer">
+                        <!-- Hamburger Menu -->
+                        <div >
+							<a href="login.html" rel="external" data-transition="fade" data-role="button" data-icon="lock">Login</a>
+							<a href="registration.html" rel="external" data-transition="fade" data-role="button" data-icon="plus">Create Account</a>
+						</div>
+                        <br />
+                        <br />
+                        <br />
+						<a href="interests.html" data-transition="fade" rel="external" data-role="button" data-icon="heart"  class="ui-link">My Interests</a>
+						<br />
+                        <br />
+						<a href="housinglist.html" data-transition="fade" rel="external" data-role="button" data-icon="search"  class="ui-link">Avaliable Properties</a>
+						<br />
+                        <br />
+						<a href="" data-transition="fade" data-role="button" data-icon="info"  class="ui-link">News</a>
+						<br />
+                        <br />
+                        <a href="help.html" data-transition="fade" rel="external" data-role="button" data-icon="comment"  class="ui-link">Help</a>
+					</div>
+				</div>
+			</div>
+			<a href="#news-navpanel" 
+				class="ui-btn-right ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" 
+				data-role="button" role="button">
+            </a>
+            <!-- Back button reverses to last visited page -->
+			<a  data-transition="fade" data-rel="back" data-direction="reverse" class="ui-link ui-btn-left ui-icon-back ui-btn ui-btn-icon-left ui-shadow ui-corner-all" data-role="button" role="button">
+				Back
+            </a>
+            <!-- Company logo-->
+			<div class="center">
+				<a href="index.html#home" rel="external">
+					<img alt="logo-image" class="logo" src="src/logo.png" />
+				</a>
+			</div>
+        </div>
+        <!-- Blog post entry -->
+		<div data-role="main" class="ui-content">
+			<h2>28/02/2020: Welcome To Homie!</h2>
+			<p style="text-align: justify;"> Welcome to Homie, the new Zedlands student accommodation portal! This platform will be used by students
+                in order to find and reserve their dream nightmare! Feel free to browse our beautifully overpriced properties 
+                and reserve the one that seems to meet all of your minimum expectations at first glance, but in reality fails to meet any of them.
+                For any issues or questions, please feel free to contact the team. I'm sure they care deeply about your concerns.
+			</p>
+		</div>
+		<div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup">
+			<div data-role="navbar" data-id="footernav" class="ui-navbar" role="navigation">
+				<ul class="ui-grid-a">
+					<li class="ui-block-b"><a href="contact.html" rel="external" data-prefetch="" class="ui-link ui-btn">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

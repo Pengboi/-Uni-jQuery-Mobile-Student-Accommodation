@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="ui-mobile">
+<head>
+	<title>Homie</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="themes/homie.min.css" />
+	<script src="src/theme.js" ></script>
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" >
+	<meta charset="utf-8">
+</head>
+<body class="ui-mobile-viewport ui-overlay-a">
+	<div data-role="page" id="home" tabindex="0">
+		<div data-role="header" role="banner" 
+			class="ui-header ui-bar-inherit">
+			<div data-position="right" data-role="panel" id="help-navpanel" data-display="overlay" data-position-fixed="true" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-inherit ui-panel-fixed ui-panel-animate ui-panel-closed">
+				<div class="ui-panel-inner">
+					<div id="navcontainer">
+                        <!-- Hamburger Menu -->
+                        <div >
+							<a href="login.html" rel="external" data-transition="fade" data-role="button" data-icon="lock">Login</a>
+							<a href="registration.html" rel="external" data-transition="fade" data-role="button" data-icon="plus">Create Account</a>
+						</div>
+                        <br />
+                        <br />
+                        <br />
+						<a href="interests.html" data-transition="fade" rel="external" data-role="button" data-icon="heart"  class="ui-link">My Interests</a>
+						<br />
+                        <br />
+						<a href="housinglist.html" data-transition="fade" rel="external" data-role="button" data-icon="search"  class="ui-link">Avaliable Properties</a>
+						<br />
+                        <br />
+                        <a href="news.html" data-transition="fade" rel="external" data-role="button" data-icon="info"  class="ui-link">News</a>
+                        <br />
+                        <br />
+                        <a href="" data-transition="fade" data-role="button" data-icon="comment"  class="ui-link">Help</a>
+					</div>
+				</div>
+			</div>
+			<a href="#help-navpanel" 
+				class="ui-btn-right ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" 
+				data-role="button" role="button">
+            </a>
+            <!-- Back button reverses to last visited page -->
+			<a  data-transition="fade" data-rel="back" data-direction="reverse" class="ui-link ui-btn-left ui-icon-back ui-btn ui-btn-icon-left ui-shadow ui-corner-all" data-role="button" role="button">
+				Back
+            </a>
+            <!-- Company logo-->
+			<div class="center">
+				<a href="index.html#home" rel="external">
+					<img alt="logo-image" class="logo" src="src/logo.png" />
+				</a>
+			</div>
+        </div>
+        <!-- Blog post entry -->
+		<div data-role="main" class="ui-content">
+            <h2>How can we help?</h2>
+            <p style="text-align: justify;">Please summarise the issues you have been experiencing below.</p>
+            <input type="text">
+            <p style="text-align: justify;">Please enter your email so we can get back to you:</p>
+            <input type="email">
+            <br/>
+            <a href="#popupConfirmation" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Submit</a>
+            <div data-role="popup" id="popupConfirmation">
+                <p>Your feedback has been submitted. We will follow-up via email.</p>
+            </div>
+		</div>
+		<div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup">
+			<div data-role="navbar" data-id="footernav" class="ui-navbar" role="navigation">
+				<ul class="ui-grid-a">
+					<li class="ui-block-b"><a href="contact.html" rel="external" data-prefetch="" class="ui-link ui-btn">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
