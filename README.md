@@ -16,6 +16,9 @@ This project required working with HTML, CSS, jQuery and the jQuery Mobile frame
 # Installation
 Feel free to clone this repo or download as zip and run in local browser.
 
+# Live Demo
+https://titan.dcs.bbk.ac.uk/~adobra01/mad/madfma/index.html
+
 
 
 
